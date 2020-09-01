@@ -7,12 +7,22 @@
   }
   
   /* Task 1 */
-  
+  h3 {
+    color:blue;
+  }
   /* Task 2 */
-  
+  ol li:nth-child(3), ol li:nth-child(5) {
+    color: red;
+  }
   /* Task 3 */
-  
+  img:first-of-type + img {
+    border: 5px solid blueviolet;
+  }
   /* Task 4 */
-  
+a[href$=".com"] {
+  background-color: yellow;
+}
   /* Task 5 */
-  
+#task5 {
+color: violet;
+}
